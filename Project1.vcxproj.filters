@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{b2881a90-ec9b-4c13-811d-28231dacfc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{5ab63fb4-8ddc-41a3-83e7-f08255114c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Beer">
+      <UniqueIdentifier>{c1833aea-ea84-46ec-81dd-62334b0a45b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Beer\BeerBuilders">
+      <UniqueIdentifier>{86697b3a-75de-495f-a1f8-0cf76cf9a6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Beer">
+      <UniqueIdentifier>{d9242f0b-9235-43d1-ad27-6f8bdc0ae2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Beer\BeerBuilders">
+      <UniqueIdentifier>{4af91e17-374a-4aff-b800-ad1550f1cc86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Brewery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Resource.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\ResourcesStorage.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Beer\BeerBuilders\AleBeerBuilder.cpp">
+      <Filter>Source Files\Beer\BeerBuilders</Filter>
+    </ClCompile>
+    <ClCompile Include="Beer\BeerBuilders\PorterBeerBuilder.cpp">
+      <Filter>Source Files\Beer\BeerBuilders</Filter>
+    </ClCompile>
+    <ClCompile Include="Beer\BeerBuilders\StoutBeerBuilder.cpp">
+      <Filter>Source Files\Beer\BeerBuilders</Filter>
+    </ClCompile>
+    <ClCompile Include="Beer\BeerBuilders\BeerBuilder.cpp">
+      <Filter>Source Files\Beer\BeerBuilders</Filter>
+    </ClCompile>
+    <ClCompile Include="Beer\Barrel.cpp">
+      <Filter>Source Files\Beer</Filter>
+    </ClCompile>
+    <ClCompile Include="Beer\Beer.cpp">
+      <Filter>Source Files\Beer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Brewery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Resource.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\ResourcesStorage.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\ResourcesList.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\Beer.h">
+      <Filter>Header Files\Beer</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\Barrel.h">
+      <Filter>Header Files\Beer</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\BeerBuilders\BeerBuilder.h">
+      <Filter>Header Files\Beer\BeerBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\BeerBuilders\AleBeerBuilder.h">
+      <Filter>Header Files\Beer\BeerBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\BeerBuilders\PorterBeerBuilder.h">
+      <Filter>Header Files\Beer\BeerBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\BeerBuilders\StoutBeerBuilder.h">
+      <Filter>Header Files\Beer\BeerBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="Beer\BeerBuilders.h">
+      <Filter>Header Files\Beer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
